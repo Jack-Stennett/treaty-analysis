@@ -15,6 +15,7 @@ import NotableAbsencesStudy from './case-studies/NotableAbsencesStudy';
 import { useLang } from '../i18n/LanguageContext';
 import { t } from '../i18n/translations';
 import AnalysisPage from './AnalysisPage';
+import AboutPage from './AboutPage';
 
 const DEFAULT_FILTERS = {
   cat: null,
@@ -41,6 +42,7 @@ export default function TreatyDB() {
     { id: 'index',         label: tr('tabIndex') },
     { id: 'case-studies',  label: tr('tabCaseStudies') },
     { id: 'analysis',      label: lang === 'zh' ? '分析' : 'Analysis' },
+    { id: 'about',         label: lang === 'zh' ? '关于' : 'About' },
   ];
 
   const [tab, setTab] = useState('overview');
@@ -110,6 +112,13 @@ export default function TreatyDB() {
       {tab === 'analysis' && (
         <main className="max-w-7xl mx-auto px-4 pt-6 pb-16">
           <AnalysisPage />
+        </main>
+      )}
+
+      {/* About */}
+      {tab === 'about' && (
+        <main className="max-w-7xl mx-auto px-4 pt-6 pb-16">
+          <AboutPage />
         </main>
       )}
 
