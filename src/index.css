@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F7F3EB;
+    color: #1F2A36;
+    font-family: 'Playfair Display', Georgia, Cambria, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Tighten default heading tracking for Playfair */
+  h1, h2, h3, h4 {
+    letter-spacing: -0.01em;
+  }
+
+  /* Table numbers look better in tabular figures */
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+
+  input, button, select {
+    font-family: inherit;
+  }
+}

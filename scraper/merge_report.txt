@@ -1,0 +1,170 @@
+MERGE REPORT
+============================================================
+
+New entries: 68
+Skipped (already in DB): 21
+Problematic (no dates): 1
+
+NEW ENTRIES:
+  [41] III-3        Vienna Convention on Diplomatic Relations
+        sig:None rat:1975 era:Mao (1949–76) cat:Political & territorial
+  [42] III-6        Vienna Convention on Consular Relations
+        sig:None rat:1979 era:Deng (1978–92) cat:Political & territorial
+  [43] III-13       United Nations Convention on Jurisdictional Immunities of St
+        sig:2005 rat:None era:Hu (2002–12) cat:Political & territorial
+  [44] IV-2         International Convention on the Elimination of All Forms of 
+        sig:None rat:1981 era:Deng (1978–92) cat:Human rights
+  [45] IV-7         International Convention on the Suppression and Punishment o
+        sig:None rat:1983 era:Deng (1978–92) cat:Human rights
+  [46] IV-10        International Convention against Apartheid in Sports
+        sig:1987 rat:None era:Deng (1978–92) cat:Human rights
+  [47] IV-11-b      Optional Protocol to the Convention on the Rights of the Chi
+        sig:2001 rat:2008 era:Hu (2002–12) cat:Human rights
+  [48] IV-11-c      Optional Protocol to the Convention on the Rights of the Chi
+        sig:2000 rat:2002 era:Jiang (1992–02) cat:Human rights
+  [49] V-2          Convention relating to the Status of Refugees
+        sig:None rat:1982 era:Deng (1978–92) cat:Human rights
+  [50] V-3          Convention relating to the Status of Stateless Persons
+        sig:None rat:None era:None cat:Human rights
+  [51] VI-1         Protocol amending the Agreements, Conventions and Protocols 
+        sig:None rat:1946 era:Mao (1949–76) cat:Human rights
+  [52] VI-7         Convention for Limiting the Manufacture and Regulating the D
+        sig:1946 rat:None era:Mao (1949–76) cat:Human rights
+  [53] VI-11        Convention for the Suppression of the Illicit Traffic in Dan
+        sig:1946 rat:None era:Mao (1949–76) cat:Human rights
+  [54] VI-13        Protocol Bringing under International Control Drugs Outside 
+        sig:None rat:1948 era:Mao (1949–76) cat:Human rights
+  [55] VI-14        Protocol for Limiting and Regulating the Cultivation of the 
+        sig:None rat:1954 era:Mao (1949–76) cat:Human rights
+  [56] VI-16        Convention on psychotropic substances
+        sig:None rat:1985 era:Deng (1978–92) cat:Human rights
+  [57] VI-18        Single Convention on Narcotic Drugs, 1961, as amended by the
+        sig:None rat:1985 era:Deng (1978–92) cat:Human rights
+  [58] VI-19        United Nations Convention against Illicit Traffic in Narcoti
+        sig:1988 rat:1989 era:Deng (1978–92) cat:Human rights
+  [59] VII-1        Protocol signed at Lake Success, New York, on 12 November 19
+        sig:None rat:1947 era:Mao (1949–76) cat:Human rights
+  [60] VII-2        International Convention for the Suppression of the Traffic 
+        sig:1947 rat:None era:Mao (1949–76) cat:Human rights
+  [61] VII-6        Protocol amending the International Agreement for the Suppre
+        sig:None rat:1949 era:Mao (1949–76) cat:Human rights
+  [62] VII-7        International Agreement for the Suppression of the White Sla
+        sig:1949 rat:None era:Mao (1949–76) cat:Human rights
+  [63] VIII-1       Protocol to amend the Convention for the suppression of the 
+        sig:None rat:1947 era:Mao (1949–76) cat:Human rights
+  [64] VIII-2       Convention for the Suppression of the Circulation of, and Tr
+        sig:1947 rat:None era:Mao (1949–76) cat:Human rights
+  [65] VIII-4       Protocol amending the Agreement for the Suppression of the C
+        sig:None rat:1949 era:Mao (1949–76) cat:Human rights
+  [66] VIII-5       Agreement for the Suppression of the Circulation of Obscene 
+        sig:1949 rat:None era:Mao (1949–76) cat:Human rights
+  [67] IX-3         Agreement on the establishment of the International Vaccine 
+        sig:1997 rat:1997 era:Jiang (1992–02) cat:Human rights
+  [68] IX-4         WHO Framework Convention on Tobacco Control
+        sig:2003 rat:2005 era:Hu (2002–12) cat:Human rights
+  [69] IX-4-a       Protocol to Eliminate Illicit Trade in Tobacco Products. Seo
+        sig:2013 rat:None era:Xi (2012–) cat:Human rights
+  [70] X-8          Agreement establishing the International Fund for Agricultur
+        sig:None rat:1980 era:Deng (1978–92) cat:Economic & trade
+  [71] X-10         United Nations Convention on Contracts for the International
+        sig:1981 rat:1986 era:Deng (1978–92) cat:Economic & trade
+  [72] X-11         Charter of the Asian and Pacific Development Centre. Bangkok
+        sig:None rat:1983 era:Deng (1978–92) cat:Economic & trade
+  [73] X-14         Agreement to establish the South Centre
+        sig:None rat:1995 era:Jiang (1992–02) cat:Economic & trade
+  [74] X-18         United Nations Convention on the Use of Electronic Communica
+        sig:2006 rat:None era:Hu (2002–12) cat:Economic & trade
+  [75] X-20         Framework Agreement on Facilitation of Cross-border Paperles
+        sig:2017 rat:2020 era:Xi (2012–) cat:Economic & trade
+  [76] X-21         United Nations Convention on the International Effects of Ju
+        sig:2023 rat:None era:Xi (2012–) cat:Economic & trade
+  [77] XI-A-15      Customs Convention on Containers, 1972
+        sig:None rat:1986 era:Deng (1978–92) cat:Maritime & territory
+  [78] XI-A-16      Customs Convention on the International Transport of Goods u
+        sig:None rat:2016 era:Xi (2012–) cat:Maritime & territory
+  [79] XII-1        Convention on the International Maritime Organization
+        sig:None rat:1973 era:Mao (1949–76) cat:Maritime & territory
+  [80] XII-6        Convention on a Code of Conduct for Liner Conferences
+        sig:None rat:1980 era:Deng (1978–92) cat:Maritime & territory
+  [81] XIV-4        Convention for the Protection of Producers of Phonograms aga
+        sig:None rat:1993 era:Jiang (1992–02) cat:Economic & trade
+  [82] XVI-2        Convention on the Nationality of Married Women
+        sig:1957 rat:1958 era:Mao (1949–76) cat:Human rights
+  [83] XVIII-5      International Convention Against the Taking of Hostages
+        sig:None rat:1993 era:Jiang (1992–02) cat:Military & security
+  [84] XVIII-7      Convention on the Prevention and Punishment of Crimes agains
+        sig:None rat:1987 era:Deng (1978–92) cat:Military & security
+  [85] XVIII-8      Convention on the Safety of United Nations and Associated Pe
+        sig:None rat:2004 era:Hu (2002–12) cat:Military & security
+  [86] XVIII-9      International Convention for the Suppression of Terrorist Bo
+        sig:None rat:2001 era:Jiang (1992–02) cat:Military & security
+  [87] XVIII-11     International Convention for the Suppression of the Financin
+        sig:2001 rat:2006 era:Hu (2002–12) cat:Military & security
+  [88] XVIII-12-a   Protocol to Prevent, Suppress and Punish Trafficking in Pers
+        sig:None rat:2010 era:Hu (2002–12) cat:Military & security
+  [89] XVIII-12-c   Protocol against the Illicit Manufacturing of and Traffickin
+        sig:2002 rat:2023 era:Xi (2012–) cat:Military & security
+  [90] XVIII-15     International Convention for the Suppression of Acts of Nucl
+        sig:2005 rat:2010 era:Hu (2002–12) cat:Military & security
+  [91] XVIII-16     United Nations Convention against Cybercrime; Strengthening 
+        sig:2025 rat:None era:Xi (2012–) cat:Military & security
+  [92] XIX-21       Agreement Establishing The Common Fund For Commodities
+        sig:1980 rat:1981 era:Deng (1978–92) cat:Economic & trade
+  [93] XIX-35       Terms of Reference of the International Copper Study Group
+        sig:None rat:1990 era:Deng (1978–92) cat:Economic & trade
+  [94] XXI-7        Agreement for the Implementation of the Provisions of the Un
+        sig:1996 rat:None era:Jiang (1992–02) cat:Maritime & territory
+  [95] XXI-10       Agreement under the United Nations Convention on the Law of 
+        sig:2023 rat:2025 era:Xi (2012–) cat:Maritime & territory
+  [96] XXII-1       Convention on the Recognition and Enforcement of Foreign Arb
+        sig:None rat:1987 era:Deng (1978–92) cat:Economic & trade
+  [97] XXII-4       United Nations Convention on International Settlement Agreem
+        sig:2019 rat:None era:Xi (2012–) cat:Economic & trade
+  [98] XXIII-1      Vienna Convention on the Law of Treaties
+        sig:None rat:1997 era:Jiang (1992–02) cat:Political & territorial
+  [99] XXIV-1       Convention on registration of objects launched into outer sp
+        sig:None rat:1988 era:Deng (1978–92) cat:Technology & science
+  [100] XXV-2        Constitution of the Asia-Pacific Telecommunity. Bangkok, 27 
+        sig:1976 rat:1977 era:Deng (1978–92) cat:Technology & science
+  [101] XXV-3        Agreement establishing the Asia-Pacific Institute for Broadc
+        sig:None rat:1988 era:Deng (1978–92) cat:Technology & science
+  [102] XXVI-1       Convention on the prohibition of military or any other hosti
+        sig:None rat:2005 era:Hu (2002–12) cat:Arms control / CBRN
+  [103] XXVI-2       Convention on Prohibitions or Restrictions on the Use of Cer
+        sig:1981 rat:1982 era:Deng (1978–92) cat:Arms control / CBRN
+  [104] XXVII-2      Vienna Convention for the Protection of the Ozone Layer
+        sig:None rat:1989 era:Deng (1978–92) cat:Environmental
+  [105] XXVII-2-f    Amendment to the Montreal Protocol on Substances that Deplet
+        sig:None rat:2021 era:Xi (2012–) cat:Environmental
+  [106] XXVII-8-a    Cartagena Protocol on Biosafety to the Convention on Biologi
+        sig:2000 rat:2005 era:Hu (2002–12) cat:Environmental
+  [107] XXVII-10     United Nations Convention to Combat Desertification in those
+        sig:1994 rat:1997 era:Jiang (1992–02) cat:Environmental
+  [108] XXVII-14     Rotterdam Convention on the Prior Informed Consent Procedure
+        sig:1999 rat:2005 era:Hu (2002–12) cat:Environmental
+
+SKIPPED (already in DB):
+  IV-1         Convention on the Prevention and Punishment of the Crime of  (already in DB)
+  IV-3         International Covenant on Economic, Social and Cultural Righ (already in DB)
+  IV-4         International Covenant on Civil and Political Rights (already in DB)
+  IV-8         Convention on the Elimination of All Forms of Discrimination (already in DB)
+  IV-9         Convention against Torture and Other Cruel, Inhuman or Degra (already in DB)
+  IV-11        Convention on the Rights of the Child (already in DB)
+  IV-15        Convention on the Rights of Persons with Disabilities (already in DB)
+  XVIII-12     United Nations Convention against Transnational Organized Cr (already in DB)
+  XVIII-14     United Nations Convention against Corruption (already in DB)
+  XXI-6        United Nations Convention on the Law of the Sea. Montego Bay (already in DB)
+  XXVI-3       Convention on the Prohibition of the Development, Production (already in DB)
+  XXVI-4       Comprehensive Nuclear-Test-Ban Treaty (already in DB)
+  XXVII-2-a    Montreal Protocol on Substances that Deplete the Ozone Layer (already in DB)
+  XXVII-3      Basel Convention on the Control of Transboundary Movements o (already in DB)
+  XXVII-7      United Nations Framework Convention on Climate Change (already in DB)
+  XXVII-7-a    Kyoto Protocol to the United Nations Framework Convention on (already in DB)
+  XXVII-7-d    Paris Agreement (already in DB)
+  XXVII-8      Convention on Biological Diversity (already in DB)
+  XXVII-8-b    Nagoya Protocol on Access to Genetic Resources and the Fair  (already in DB)
+  XXVII-15     Stockholm Convention on Persistent Organic Pollutants (already in DB)
+  XXVII-17     Minamata Convention on Mercury. Kumamoto, 10 October 2013 (already in DB)
+
+PROBLEMATIC (no dates parsed - review manually):
+  V-3          Convention relating to the Status of Stateless Persons
