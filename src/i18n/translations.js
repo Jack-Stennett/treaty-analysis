@@ -43,6 +43,10 @@ export const UI = {
     chartTooltipTreaties: (n) => ` ${n} treaties`,
     chartEraTotal: 'Era total:',
 
+    // CategoryBarChart
+    catChartTitle: 'Treaties by Category & Era',
+    catChartCatTotal: 'Category total:',
+
     // EraDetailPanel
     panelTreaties: (n) => `${n} treaties`,
     panelAll: 'All',
@@ -131,6 +135,10 @@ export const UI = {
     chartAllEras: '—所有时期',
     chartTooltipTreaties: (n) => ` ${n}项条约`,
     chartEraTotal: '该时期合计：',
+
+    // CategoryBarChart
+    catChartTitle: '按类别与时期分布',
+    catChartCatTotal: '该类别合计：',
 
     // EraDetailPanel
     panelTreaties: (n) => `${n}项条约`,

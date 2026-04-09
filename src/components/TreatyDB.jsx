@@ -3,6 +3,7 @@ import { TREATIES } from '../data/treaties';
 import MetricCards from './MetricCards';
 import FilterBar from './FilterBar';
 import EraBarChart from './EraBarChart';
+import CategoryBarChart from './CategoryBarChart';
 import EraDetailPanel from './EraDetailPanel';
 import NotableAbsences from './NotableAbsences';
 import TreatyTable from './TreatyTable';
@@ -94,6 +95,7 @@ export default function TreatyDB() {
           <MetricCards treaties={TREATIES} />
           <FilterBar filters={filters} onChange={setFilters} />
           <EraBarChart treaties={filtered} onSelect={setSelection} selection={selection} />
+          <CategoryBarChart treaties={filtered} onSelect={setSelection} selection={selection} />
           {selection && (
             <EraDetailPanel selection={selection} treaties={filtered} onClose={() => setSelection(null)} />
           )}
