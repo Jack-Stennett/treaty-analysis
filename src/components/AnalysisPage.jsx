@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLang } from '../i18n/LanguageContext';
+import MarkdownContent from './MarkdownContent';
+import analysisEnMd from '../content/analysis-en.md?raw';
 
 // ── Minimal sub-components ────────────────────────────────────────────────
 
@@ -78,9 +80,13 @@ function ScopeNote({ lang }) {
   );
 }
 
-// ── English version ───────────────────────────────────────────────────────
+// ── English version (markdown-driven) ────────────────────────────────────
 
 function EnAnalysis() {
+  return <MarkdownContent content={analysisEnMd} />;
+}
+
+function EnAnalysis_LEGACY() {
   const findings = [
     {
       n: 1,

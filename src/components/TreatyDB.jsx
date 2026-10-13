@@ -17,6 +17,7 @@ import { useLang } from '../i18n/LanguageContext';
 import { t } from '../i18n/translations';
 import AnalysisPage from './AnalysisPage';
 import AboutPage from './AboutPage';
+import ComparisonPage from './ComparisonPage';
 
 const DEFAULT_FILTERS = {
   cat: null,
@@ -43,6 +44,7 @@ export default function TreatyDB() {
     { id: 'index',         label: tr('tabIndex') },
     { id: 'case-studies',  label: tr('tabCaseStudies') },
     { id: 'analysis',      label: lang === 'zh' ? '分析' : 'Analysis' },
+    { id: 'comparison',   label: lang === 'zh' ? '美中对比' : 'US vs China' },
     { id: 'about',         label: lang === 'zh' ? '关于' : 'About' },
   ];
 
@@ -114,6 +116,13 @@ export default function TreatyDB() {
       {tab === 'analysis' && (
         <main className="max-w-7xl mx-auto px-4 pt-6 pb-16">
           <AnalysisPage />
+        </main>
+      )}
+
+      {/* US vs China Comparison */}
+      {tab === 'comparison' && (
+        <main className="max-w-7xl mx-auto px-4 pt-6 pb-16">
+          <ComparisonPage />
         </main>
       )}
 
