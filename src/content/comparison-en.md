@@ -1,52 +1,54 @@
-It international law, it's not as simple as some countries being more trustworthy than others, and the US–China comparison illustrates this. Both countries engage selectively with international law — but they fail to be an "exemplary actor" at *different stages* of the treaty process, for different structural reasons. These have different downstream consequences for treaty design.
+In international law, it isn't as simple as some countries being trustworthy and others not, and the US–China comparison shows why. Both countries engage selectively with international law, but they fall short at *different stages* of the treaty process, for different structural reasons. Those differences matter for treaty design.
 
-## The Ratification Problem and the US
+## The US Ratification Problem
 
-The US has one of the worst ratification records of any major democracy, mainly because of how their ratification process is set up. The two-thirds Senate majority required for ratification means that a supermajority of US senators need to agree before a treaty is ratified. Since roughly 1990, polarisation has made this incredibly difficult to achieve — in particular, a significant number of treaties signed by Democratic administrations have been blocked by Republican senators on ideological or sovereignty grounds.
+The US has one of the weakest ratification records of any major democracy, largely because of how ratification works there. A treaty needs the approval of two-thirds of the Senate, so 34 senators can block it. As polarisation has deepened, that bar has become very hard to clear, and many treaties signed by Democratic administrations have stalled in the face of Republican opposition on sovereignty or ideological grounds.
 
-The most discussed unratified treaties are striking. They include CEDAW, the Convention on the Rights of the Child, the Ottawa Mine Ban Treaty, the Convention on Cluster Munitions, the Convention on the Rights of Persons with Disabilities, and the Optional Protocol to the Convention against Torture.
+The list of unratified treaties is striking. It includes CEDAW, the Convention on the Rights of the Child, the Ottawa Mine Ban Treaty, the Convention on Cluster Munitions, the Convention on the Rights of Persons with Disabilities, and the Optional Protocol to the Convention against Torture.
 
-The **Convention on the Rights of the Child** is potentially the most embarrassing single example — the US is the only UN member state that has not ratified it, after Somalia ratified in 2015.
+The **Convention on the Rights of the Child** is probably the most awkward example: since Somalia ratified in 2015, the US is the only UN member state that hasn't.
 
-Then there is **UNCLOS** — the Law of the Sea. Although the United States signed and recognised UNCLOS as a codification of customary international law in 1994, it has not ratified it. This is despite the Pentagon, multiple Secretaries of State, and even George W. Bush urging the Senate to do so. When the US criticises China's South China Sea behaviour, this strikes many as ironic, as they are using a legal framework it refuses to formally join.
+Then there is **UNCLOS**, the Law of the Sea. The US refused to sign the Convention in 1982, though since 1983 it has treated its navigation rules as customary international law. It signed the 1994 agreement revising the deep-seabed mining provisions, but has ratified neither, despite the Pentagon, several Secretaries of State and George W. Bush urging the Senate to do so. When the US criticises China's conduct in the South China Sea by appeal to UNCLOS, many observers note that it is invoking a treaty it has never joined.
 
-Not ratifying treaties is only one way the US retreats from international law - the International Criminal Court **Rome Statute** was signed by Clinton but ["unsigned" by Bush in 2002](https://www.icj.org/us-unsigning-of-icc-treaty-threatens-grave-consequences-for-international-law/) citing risks of politicised prosecutions against American service members deployed abroad.
+Not ratifying is only one way the US steps back from treaties. Clinton signed the **Rome Statute** of the International Criminal Court in 2000, but in 2002 the Bush administration ["unsigned" it](https://www.icj.org/us-unsigning-of-icc-treaty-threatens-grave-consequences-for-international-law/), telling the UN it did not intend to become a party, citing the risk of politicised prosecutions of US service members.
 
-A number of environmental treaties remain unratified — the **Basel Convention on hazardous waste exports**, signed in 1990, is still not ratified, and the **Kyoto Protocol** was signed but never submitted for ratification. The **CTBT** was signed in 1996 and has sat unratified since. 
+Several environmental treaties also remain unratified. The **Basel Convention** on hazardous waste was signed in 1990 and never ratified; the US is the only OECD member outside it. The **Kyoto Protocol** was signed but never submitted for ratification. The **CTBT** was signed in 1996 and rejected by the Senate in 1999.
 
 ## The Non-Compliance Picture
 
-The US pattern of non-compliance is qualitatively different from China's.
+The US pattern of non-compliance is different in kind from China's:
 
-- China tends to ratify treaties and then quietly not implement them
-- The US often never ratifies in the first place because of Senate structure and polarisation
-- The US generally complies domestically when it does ratify
-- However, the US may also act contrary to a treaty in its foreign policy — this is somewhat of an inevitability, given its choice to fight wars.
+- China tends to ratify treaties and then implement them narrowly, or quietly not at all.
+- The US often doesn't ratify in the first place, because of the Senate's structure and polarisation.
+- When the US does ratify, it generally complies at home.
+- But it sometimes acts against a treaty abroad, particularly in military operations.
 
 A few concrete examples:
 
-**Geneva Conventions:** The US has ratified these but the post-2001 period produced Abu Ghraib, Guantánamo, and the CIA's enhanced interrogation programme, all of which generated serious legal findings of non-compliance from international bodies and the US's own Senate Intelligence Committee.
+**Geneva Conventions:** The US has ratified all four, but the post-2001 period produced Abu Ghraib, Guantánamo and the CIA's "enhanced interrogation" programme. International bodies found these in breach of US obligations, and the Senate Intelligence Committee's own 2014 report documented the abuses in detail.
 
-**UN Charter prohibition on the use of force:** The Iraq invasion in 2003 is the most contested case, but there is a long list — Libya 2011, Syria strikes 2017 and 2018, various drone strike programmes.
+**The UN Charter's ban on the use of force:** The 2003 invasion of Iraq is the clearest case; most international lawyers consider it unlawful. Strikes on Syria in 2017 and 2018 and targeted-killing drone programmes are also widely contested. (The 2011 Libya intervention was authorised by the Security Council; the criticism there is that NATO went beyond its mandate.)
 
-**Arms Trade Treaty:** The US was the principal architect of the treaty, signed it, then withdrew under Trump. There is no mechanism within the ATT or provision in international law for "unsigning" a treaty, but the message sent a clear signal about how the United States viewed its international commitments.
+**Arms Trade Treaty:** The US was a principal architect of the treaty and signed it in 2013, but never ratified. In 2019 the Trump administration told the UN it did not intend to become a party. There's no formal procedure for "unsigning", but that notice releases a signatory from its obligation not to undermine the treaty, and the signal was clear. China joined the ATT the following year.
 
-## The Key Analytical Distinction
+**Withdrawals:** The US has also left agreements it did join. It withdrew from the Paris Agreement twice (effective 2020 and again in January 2026), left the WHO in January 2026, and has given notice that it will leave the UN climate convention itself in 2027.
 
-The most important point is this: **the US and China fail at different stages** of the treaty process model. The US fails most visibly at ratification — the Senate is a genuine veto point that produces a large signed-but-not-ratified stack. China has almost no ratification bottleneck (the NPC Standing Committee is a rubber stamp) but has a much larger implementation and compliance gap downstream.
+## The Key Distinction
 
-There is also a legitimacy dimension worth noting. The US message that China is "violating" UNCLOS simply does not resonate with many nations, which recognise that America has not even ratified the instrument. This is a recurring problem for US criticism of Chinese behaviour — it is often substantively correct but procedurally hypocritical, which China exploits very effectively in multilateral forums.
+The most important point is that **the US and China fall short at different stages** of the treaty process. The US problem shows up most at ratification: the Senate is a real veto point, and it leaves a long list of treaties signed but never ratified. China has almost no ratification bottleneck, since the NPC Standing Committee rarely if ever rejects a treaty the leadership has decided to join. Its problem comes later, in the gap between ratification and implementation.
 
-The most defensible framing is probably that **the two countries fail differently rather than one being clearly worse**: the US has a structural ratification problem rooted in its constitutional design, combined with a tendency to exempt its own military conduct from frameworks it otherwise champions; China has a ratification-to-implementation gap, combined with a pattern of signing treaties to gain legitimacy whilst reserving the right to interpret obligations very narrowly. Both are forms of selective engagement with international law — they just look different on a treaty compliance spreadsheet.
+There is also a legitimacy problem. As Isaac Kardon [has noted](https://carnegieendowment.org/posts/2023/05/rule-by-law-chinas-increasingly-global-legal-reach?lang=en), US claims that China is "violating" UNCLOS don't land well with many countries that know the US hasn't joined it. This recurs in US criticism of China: often right on substance, but easy to dismiss as hypocritical, and China makes good use of that in multilateral forums.
+
+The fairest summary is probably that **the two countries fall short in different ways, rather than one being clearly worse**. The US has a structural ratification problem rooted in its constitution, plus a habit of exempting its own military conduct from rules it otherwise champions. China has a ratification-to-implementation gap, plus a pattern of joining treaties for legitimacy while reading its obligations very narrowly. Both are forms of selective engagement with international law; they just look different on a spreadsheet.
 
 ## Implications for AI Governance Design
 
-For any AI governance treaty, this comparison has two concrete design implications.
+This comparison has two concrete implications for an AI treaty.
 
-**US ratification requires executive-Congressional alignment.** A treaty that cannot secure two-thirds of the Senate is not worth designing around. Executive agreements (like the Paris Agreement under the Biden approach) avoid the Senate but can be withdrawn by the next president — as Paris was, twice. The structural instability of US treaty commitments is a design input, not just a political risk.
+**US ratification needs the Senate, and executive agreements don't last.** A treaty that can't win two-thirds of the Senate won't bind the US. Executive agreements avoid the Senate, but the next president can withdraw from them: the Paris Agreement, joined by Obama as an executive agreement, has been abandoned twice. The instability of US commitments is a design constraint, not just a political risk.
 
-**Chinese implementation requires verification by design.** A treaty that relies on good-faith Chinese implementation without external verification is likely to produce the same pattern seen in WTO subsidies, CFC-11, and Hong Kong: formal ratification with minimal downstream effect. Binary obligations with centralised, independently verifiable checkpoints are more durable than scalar obligations that can be navigated.
+**Chinese implementation needs verification by design.** A treaty that relies on good-faith Chinese implementation without outside verification is likely to repeat the pattern seen with WTO subsidies, CFC-11 and Hong Kong: formal ratification, little change on the ground. Binary obligations with central, independently verifiable checkpoints hold up better than scalar obligations that can be worked around.
 
 ---
 
-*This analysis compares formal treaty status and documented compliance failures from international legal bodies, UN treaty committees, and independent researchers. It does not compare the overall quality of governance, respect for human rights, or alignment with democratic norms — domains where the two countries differ substantially. The point is narrower: for the specific question of treaty reliability as an instrument of AI governance, both countries have structural weaknesses, and those weaknesses are different in kind.*
+*This page compares formal treaty status and documented compliance problems identified by international legal bodies, UN treaty committees and independent researchers. It does not compare the overall quality of governance, respect for human rights, or democratic accountability, where the two countries differ greatly. The point is narrower: on the specific question of treaty reliability as a tool for AI governance, both countries have structural weaknesses, and those weaknesses are different in kind.*

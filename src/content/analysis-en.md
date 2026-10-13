@@ -1,59 +1,59 @@
-This database catalogues 108 multilateral treaties to which China is a party or notable absentee, coded across obligation type (binary vs scalar), enforcement channel (centralised vs distributed), and behavioural compliance record. The case studies provide detailed analysis of the four most instructive examples. This page synthesises the patterns.
+This database covers 120 international instruments that China has joined, signed, or notably stayed out of. Each is coded by obligation type (binary or scalar), enforcement channel (centralised or distributed), and what China has actually done. The case studies look in detail at the most useful examples. This page pulls the patterns together.
 
-The goal is not to predict whether China will comply with a hypothetical AI governance treaty — that depends on treaty design choices that haven't been made yet. The goal is to identify which design choices are likely to produce reliable compliance, and which are likely to be navigated around.
+The aim isn't to predict whether China would comply with a hypothetical AI treaty. That depends on design choices nobody has made yet. The aim is to work out which design choices tend to produce reliable compliance, and which tend to get worked around. With only a handful of detailed cases, these are patterns rather than laws, but they are fairly consistent.
 
 ## Five Patterns
 
 ### 1. Binary obligations survive; scalar ones don't
 
-Every case study confirms the same pattern. "Close all CFC plants by 2010" was met early. "Progressively liberalise your services sector" was not. Binary obligations have a clear pass/fail threshold; China either did the thing or it didn't, and everyone can see which. Scalar obligations — which require an ongoing direction of travel — give China room to comply with the letter while ignoring the spirit, and they are nearly impossible to enforce once the political mood shifts.
+"Close your CFC plants by 2010" was done early. "Notify your subsidies" took fifteen years for local subsidies and is still incomplete. A binary obligation has a clear pass/fail line: China either did the thing or it didn't, and everyone can see which. A scalar obligation asks for continuing movement in a direction. That leaves room to comply with the letter while ignoring the spirit, and it becomes almost impossible to enforce once the political mood shifts.
 
-> **Design implication:** Obligations in an AI treaty must specify precise, observable thresholds (compute limits, mandatory evaluation before deployment, registry of frontier models). Vague aspirational language ("make efforts to ensure safety") will not survive the translation into Chinese domestic law.
+> **For AI:** obligations need precise, observable thresholds, such as compute limits, mandatory pre-deployment evaluation, or a registry of frontier models. Language like "make efforts to ensure safety" won't survive the translation into Chinese domestic law in any meaningful form.
 
-### 2. Centralised gatekeeping works; distributed monitoring doesn't
+### 2. Gatekeeping works; distributed monitoring doesn't
 
-When compliance depends on a single checkpoint — IAEA certification required before nuclear technology transfer, WTO dispute settlement visible to all trading partners — China tends to meet the threshold. When it depends on thousands of actors across dozens of provinces being monitored over time, it fails. The CFC-11 episode is the purest example: provincial authorities had neither the incentive nor the capacity to monitor foam insulation manufacturers, and they didn't.
+When compliance runs through a single checkpoint, China tends to clear it. Examples: the US presidential certification that stood between China and civil nuclear cooperation, or tariff schedules any trading partner can check. When compliance depends on watching thousands of actors across dozens of provinces over many years, it slips. CFC-11 is the clearest case. Provincial authorities had neither the incentive nor the capacity to police small foam manufacturers, and they didn't.
 
-> **Design implication:** AI governance mechanisms should be designed as chokepoints — pre-deployment evaluation by a designated authority, compute acquisition visible to hardware supply chains — rather than as distributed reporting obligations that depend on provincial enforcement.
+> **For AI:** build requirements around chokepoints, such as pre-deployment evaluation by a designated authority or compute purchases visible through the hardware supply chain. Avoid reporting duties that depend on provincial enforcement.
 
-### 3. Concrete incentives beat normative architecture
+### 3. Concrete incentives beat good intentions
 
-China joined the IAEA regime because it wanted civilian nuclear technology. It complied with WTO tariff schedules because it needed market access. The Montreal Protocol worked because the Multilateral Fund paid for the transition and trade provisions made non-compliance commercially costly. In every case of reliable compliance, there is a concrete, near-term payoff — not a normative commitment to "global governance". The "good global citizen" argument does not move China when interests conflict.
+China changed its nuclear export behaviour because it wanted US nuclear technology. It met WTO tariff schedules because it wanted market access. The Montreal Protocol worked partly because the Multilateral Fund paid for the transition. Wherever compliance has been reliable, there was a concrete, near-term payoff, not just a commitment to "global governance". Appeals to being a good global citizen don't move China much when its interests point the other way.
 
-> **Design implication:** Any AI treaty that wants Chinese participation needs to offer something China concretely wants — access to compute, safety research, or international legitimacy — rather than relying on shared normative commitment to AI safety.
+> **For AI:** an agreement that wants Chinese participation needs to offer something China actually wants, such as access to compute, joint safety research, or international recognition, rather than relying on a shared commitment to AI safety.
 
-### 4. China complies with the letter, tests the spirit
+### 4. China complies with the letter and tests the spirit
 
-This is the most consistent pattern. Tariff schedules: met precisely. Subsidy reporting: ignored for 15 years. Formal IP law: passed. IP enforcement in courts: notional for a decade. Nuclear inspections of declared civil facilities: accepted. Military nuclear transparency: near-zero. China does not "defect" from treaties; it navigates them. It locates the measurable threshold, meets it, and preserves maximal discretion in everything else. Treaty designers who rely on good-faith interpretation of spirit will be consistently disappointed.
+This is the most consistent pattern. Tariff schedules: met precisely. Local subsidy notifications: none for fifteen years. IP laws: passed quickly. IP enforcement: weak for a decade. IAEA inspections at the few civil facilities it offers: accepted. Transparency about its nuclear arsenal: minimal. China rarely defects from a treaty outright; it navigates it. It finds the measurable threshold, meets it, and keeps as much discretion as possible everywhere else. Treaty designers who rely on good-faith readings of the spirit will be disappointed.
 
-> **Design implication:** Close every interpretive gap. Do not rely on "appropriate measures" or "best efforts" language. Any element you care about must be specified with enough precision that compliance is binary and independently verifiable.
+> **For AI:** close the interpretive gaps. Avoid "appropriate measures" and "best efforts". Anything that matters should be specified precisely enough that compliance is a yes-or-no question someone outside can check.
 
-### 5. Leadership transitions can undo everything
+### 5. Leadership changes can undo a lot
 
-Zhu Rongji's reform agenda made WTO accession possible; Xi Jinping's consolidation of state economic control hollowed out many of its commitments. China does not have institutional barriers — independent courts, a legislature with genuine power — that insulate treaty obligations from shifts in political direction. A treaty designed around the preferences of a reformist leadership may be unrecognisable within a decade.
+Zhu Rongji's reform agenda made WTO accession possible. Xi Jinping's tighter state control of the economy hollowed out much of what reformers hoped it would bring. China has no independent courts or genuinely powerful legislature to insulate treaty obligations from a change in political direction. A treaty built around one leadership's preferences can look very different a decade later.
 
-> **Design implication:** AI governance obligations should not depend on any particular Chinese leadership's worldview. They need to be embedded in administrative processes with external verification, so that compliance becomes a technical routine rather than a political commitment that can be withdrawn.
+> **For AI:** obligations shouldn't depend on any particular Chinese leadership's worldview. They should be built into administrative routines with outside verification, so that compliance becomes a technical habit rather than a political commitment that can be withdrawn.
 
 ## Implications for AI Governance Design
 
-**Make obligations binary and observable.** Compute thresholds with hardware supply chain visibility. Mandatory pre-deployment evaluation with a pass/fail output. Model registries with mandatory disclosure. Every element that matters must have a clear, external checkmark.
+**Make obligations binary and observable.** Compute thresholds that hardware supply chains can see. Pre-deployment evaluations with a pass/fail result. Model registries with mandatory disclosure. Everything that matters should have a clear, external check.
 
-**Design chokepoints, not monitoring networks.** A single certification requirement (like IAEA before nuclear tech transfer) is more enforceable than a reporting framework relying on provincial authorities. Find the chokepoints in AI development — compute acquisition, model deployment gates — and build requirements there.
+**Design chokepoints, not monitoring networks.** One certification requirement is easier to enforce than a reporting system that depends on provincial officials. In AI the candidate chokepoints are compute acquisition and model deployment.
 
-**Attach concrete payoffs.** Access to safety research, compute cooperation, or international legitimacy certification are all potential levers. The Multilateral Fund model — where compliance is directly financed — is worth exploring for AI transition costs.
+**Attach concrete payoffs.** Access to safety research, compute cooperation and international recognition are all possible levers. The Multilateral Fund model, where compliance is paid for directly, is worth exploring for AI.
 
-**Close every interpretive gap.** "Best efforts" and "appropriate measures" are compliance escape hatches. An AI treaty will be tested at every ambiguous margin. Assume the letter of every clause will be read as narrowly as possible and draft accordingly.
+**Close the interpretive gaps.** "Best efforts" and "appropriate measures" are escape hatches. Assume every clause will be read as narrowly as possible and draft accordingly.
 
-**Build in leadership-proof robustness.** Obligations embedded in administrative process with external verification survive political transitions better than ones that depend on a government's current ideology. The IAEA model — routine technical inspections, not political commitments — is more durable than the WTO model.
+**Make it survive a change of leadership.** Obligations built into routine administration with outside verification last longer than ones that depend on a government's current ideology. Routine technical inspection, as under the CWC or IAEA safeguards, has proved more durable than the broad reform commitments of WTO accession.
 
-**Accept the limits of this approach.** China's notable absences (ICC, ICCPR Optional Protocol, ILO 87) reveal a structural limit: external adjudication of domestic conduct is a constitutive red line, not a negotiating position. Any AI treaty requiring independent investigation of domestic AI incidents will face the same resistance.
+**Accept the limits.** China's notable absences, including the ICC, the ICCPR (signed 1998, never ratified) and ILO Convention 87, show a consistent line. China does not accept outside bodies investigating or judging its domestic conduct. An AI treaty that requires independent investigation of domestic AI incidents will run into the same wall.
 
 ## Dataset Scope & Gaps
 
-This database covers **108 treaties** drawn from the UN Treaty Collection (MTDSG) — which holds ~570 multilateral treaties deposited with the Secretary-General. It does not cover: bilateral treaties (China has signed ~3,000), technical treaties deposited with bodies like the IMF and World Bank, or non-binding MoUs (including most Belt and Road cooperation agreements). The 108 represent the major multilateral instruments with strategic relevance to China's international governance participation.
+The database covers **120 instruments**. **106 are multilateral**, about 93 of them deposited with the UN Secretary-General; 68 records were coded directly from the UN Treaty Collection, which holds more than 560 such treaties. **14 are bilateral**, 12 of them with the US. Four of the US–China entries are not treaties at all (joint statements, communiqués, a verbal commitment and a failed negotiation) and are labelled as such. They are included because they are central to how the relationship actually works.
 
-**Notable gaps:** BRI (Belt and Road) is not a treaty — a collection of bilateral MoUs outside the UN treaty system. IMF & World Bank Articles are deposited with those institutions, not MTDSG. RCEP (2022) is China's most recent major multilateral trade agreement. ICSID Convention: investment dispute arbitration; China ratified 1993 with significant reservations.
+**Not covered:** most of China's bilateral agreements (it concludes hundreds a year), the IMF and World Bank Articles of Agreement (deposited with those institutions), and non-binding memoranda, including most Belt and Road cooperation documents. RCEP (in force 2022) is included. The ICSID investment arbitration convention, which China ratified in 1993 with a notification limiting the disputes it will submit, is not.
 
 ## A Note on Chinese Media Sources
 
-Chinese state media (Xinhua, People's Daily, Global Times) covers treaty signings and ratifications but rarely provides independent compliance analysis — coverage tracks the official position. CCTV and official government websites (gov.cn, mfa.gov.cn) are useful as primary sources for understanding how China presents its own compliance record, but should not be treated as independent verification. Academic sources such as the *Chinese Journal of International Law* (Oxford) and Chinese law review journals contain more rigorous analysis, though these often require institutional access.
+Chinese state media (Xinhua, People's Daily, Global Times) report signings and ratifications but rarely offer independent analysis of compliance; coverage follows the official line. CCTV and government websites (gov.cn, mfa.gov.cn) are useful primary sources for how China presents its own record, but they are not independent verification. Academic work, for example in the *Chinese Journal of International Law* and Chinese law reviews, is more rigorous, though often behind paywalls.

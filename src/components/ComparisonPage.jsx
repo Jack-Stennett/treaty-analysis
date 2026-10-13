@@ -89,7 +89,7 @@ const COUNTRIES = [
     id: 'no',
     flag: '🇳🇴',
     name: 'Norway',
-    subtitle: 'Gold standard — ratifies almost everything',
+    subtitle: 'Ratifies widely and implements reliably',
     color: '#2A6080',
     getStatus: (t, map) => map[t.id]?.status ?? 'n/a',
   },
@@ -97,7 +97,7 @@ const COUNTRIES = [
     id: 'cn',
     flag: '🇨🇳',
     name: 'China',
-    subtitle: 'Ratifies broadly; implementation gap downstream',
+    subtitle: 'Ratifies broadly; the gap comes at implementation',
     color: '#8B3A3A',
     getStatus: (t) => normaliseChinaStatus(t),
   },
@@ -105,7 +105,7 @@ const COUNTRIES = [
     id: 'us',
     flag: '🇺🇸',
     name: 'United States',
-    subtitle: 'Senate veto creates large signed-not-ratified stack',
+    subtitle: 'Two-thirds Senate rule leaves many treaties signed but unratified',
     color: '#C2A46D',
     getStatus: (t, map) => map[t.id]?.status ?? 'n/a',
   },
@@ -113,7 +113,7 @@ const COUNTRIES = [
     id: 'kp',
     flag: '🇰🇵',
     name: 'North Korea',
-    subtitle: 'Signs basic UN instruments; near-zero implementation',
+    subtitle: 'Joins some UN treaties; implements very little',
     color: '#7D8F69',
     getStatus: (t, map) => map[t.id]?.status ?? 'n/a',
   },
@@ -382,14 +382,13 @@ export default function ComparisonPage() {
           The US–China Treaty Gap
         </h2>
         <p className="text-navy/50 text-sm italic mb-4">
-          How the two countries fail international law differently — and what it means for AI governance
+          How the two countries fall short of international law in different ways, and what that means for AI governance
         </p>
         <p className="text-sm text-navy/70 leading-relaxed">
-          The conventional framing of AI treaty compliance presents a binary: either a country is
-          trustworthy or it isn't. The US–China comparison complicates this. Both countries engage
-          selectively with international law — but they fail at <em>different stages</em> of the
-          treaty process, for different structural reasons, with different downstream consequences
-          for treaty design.
+          Debates about AI treaties often assume a country is either trustworthy or it isn't. Comparing
+          the US and China complicates that. Both engage selectively with international law, but they
+          fall short at <em>different stages</em> of the treaty process, for different structural
+          reasons, and that matters for how a treaty should be designed.
         </p>
       </div>
 
@@ -400,7 +399,7 @@ export default function ComparisonPage() {
             Country Baseline
           </h3>
           <p className="text-xs text-navy/45 mt-0.5">
-            Multilateral treaties in force, signed-not-ratified, and not signed — Norway as compliance ceiling, DPRK as floor.
+            Treaties in force, signed but not ratified, and not signed. Norway is included as a high-participation benchmark and North Korea as a low one.
           </p>
         </div>
         <div className="px-5 py-1">
@@ -489,43 +488,43 @@ export default function ComparisonPage() {
         <div>
           <div className="bg-[#2E4A6B]/5 border border-[#2E4A6B]/15 rounded-lg p-4 text-sm text-navy/70 leading-relaxed mb-6">
             <strong className="text-navy/85">The US ratification problem.</strong>{' '}
-            The US has one of the worst ratification records of any major democracy, and the mechanism
-            is structural. The two-thirds Senate majority required for ratification is a serious
-            bottleneck. Since roughly 1990, polarisation has made it nearly impossible to achieve — a
-            significant number of treaties signed by Democratic administrations have been blocked by
-            Republican senators on ideological or sovereignty grounds. The headline unratified
-            treaties are striking, and in some cases embarrassing.
+            The US has one of the weakest ratification records of any major democracy, and the reason
+            is structural. Ratification needs a two-thirds Senate majority, so a third of senators can
+            block any treaty. As polarisation has grown, that bar has become very hard to clear, and
+            many treaties signed by Democratic administrations have stalled because of Republican
+            opposition on sovereignty or ideological grounds. Some of the treaties left unratified are
+            striking.
           </div>
 
           <DivergenceSection
             title="China has ratified — US has not"
-            subtitle="These are treaties where China has formally ratified and entered into force, while the US has signed but not ratified, or never signed at all. Many represent the most significant US ratification failures."
+            subtitle="Treaties in force for China that the US has signed but not ratified, or never signed. They include many of the most notable US ratification failures."
             treaties={chinaInForce_USNot}
           />
 
           <DivergenceSection
             title="US has ratified — China has not"
-            subtitle="Treaties where the US is a full party but China has only signed or not participated. Fewer in number, and less politically salient."
+            subtitle="Treaties where the US is a full party but China has only signed or stayed out. There are fewer of these, and they attract less attention."
             treaties={usInForce_ChinaNot}
           />
 
           {usWithdrew.length > 0 && (
             <DivergenceSection
               title="US has withdrawn"
-              subtitle="Cases where the US was once a party and formally withdrew — a pattern with no equivalent on the Chinese side."
+              subtitle="Cases where the US was a party and formally withdrew. China has no equivalent in this dataset."
               treaties={usWithdrew}
             />
           )}
 
           <DivergenceSection
             title="Both signed, neither ratified"
-            subtitle="Cases where both countries signed but neither has ratified — typically indicating shared political reluctance to be bound."
+            subtitle="Both countries signed but neither has ratified, usually a sign that neither wants to be bound."
             treaties={bothSignedOnly}
           />
 
           <DivergenceSection
             title="Neither signed"
-            subtitle="Treaties where both countries are absent — usually arms-reduction instruments opposed by both nuclear powers."
+            subtitle="Treaties both countries have stayed out of, mostly arms control and disarmament instruments that both nuclear powers oppose."
             treaties={bothNotSigned}
           />
         </div>
@@ -536,14 +535,13 @@ export default function ComparisonPage() {
         <div>
           <div className="text-sm text-navy/70 leading-relaxed mb-6">
             <p className="mb-3">
-              Ratification status is only part of the picture. For treaties where both countries
-              are party, their compliance records differ in pattern and character. China tends to
-              ratify and then quietly not implement; the US tends to comply domestically when it
-              ratifies, but may act contrary to the treaty's spirit in its foreign policy.
+              Ratification is only part of the picture. Where both countries are parties, their
+              compliance problems look different. China tends to ratify and then implement narrowly or
+              not at all. The US generally complies at home once it ratifies, but sometimes acts against
+              a treaty abroad, especially in military operations.
             </p>
             <p>
-              The examples below illustrate the most significant cases of non-compliance or partial
-              compliance on each side.
+              The examples below are among the most significant cases on each side.
             </p>
           </div>
 
@@ -556,28 +554,28 @@ export default function ComparisonPage() {
               country="United States"
               verdict="partial"
               title="Geneva Conventions — Abu Ghraib & Guantánamo"
-              body="The US ratified all four Geneva Conventions but the post-2001 period produced Abu Ghraib, Guantánamo, and the CIA's 'enhanced interrogation' programme — all of which generated serious legal findings of non-compliance from international bodies and the US's own Senate Intelligence Committee."
+              body="The US ratified all four Geneva Conventions, but the post-2001 period produced Abu Ghraib, Guantánamo and the CIA's 'enhanced interrogation' programme. International bodies found these in breach of US obligations, and the Senate Intelligence Committee's own 2014 report documented the abuses in detail."
             />
             <ComplianceCase
               flag="🇺🇸"
               country="United States"
               verdict="partial"
               title="UN Charter — Use of Force"
-              body="The UN Charter prohibition on the use of force has been tested repeatedly: Iraq 2003, Libya 2011, Syria strikes 2017 and 2018, and various drone strike programmes. The Iraq invasion is the most contested; most international legal scholars consider it unlawful under the Charter."
+              body="The Charter's ban on the use of force has been tested repeatedly by the US: Iraq in 2003, strikes on Syria in 2017 and 2018, and targeted-killing drone programmes. The Iraq invasion is the clearest case, and most international lawyers consider it unlawful. (The 2011 Libya intervention was authorised by the Security Council; the criticism there is that NATO went beyond its mandate.)"
             />
             <ComplianceCase
               flag="🇺🇸"
               country="United States"
               verdict="partial"
               title="UNCLOS — South China Sea critique"
-              body="The US has not ratified UNCLOS, yet invokes it as the legal basis for criticising China's South China Sea behaviour. This procedural hypocrisy is exploited very effectively by China in multilateral forums and resonates with many non-aligned nations."
+              body="The US has never signed or ratified UNCLOS, though it treats the navigation rules as customary law. It still invokes the Convention when criticising China's conduct in the South China Sea. China makes effective use of this inconsistency in multilateral forums, and the point lands with many non-aligned states."
             />
             <ComplianceCase
               flag="🇺🇸"
               country="United States"
               verdict="partial"
-              title="Arms Trade Treaty — Withdrawal"
-              body="The US was the principal architect of the ATT, signed it in 2013, then Trump 'unsigned' it in 2019 — there is no mechanism in international law for unsigning a treaty — sending a clear signal about how the US viewed its international commitments."
+              title="Arms Trade Treaty — 'Unsigning'"
+              body="The US was a principal architect of the ATT and signed it in 2013, but never ratified. In 2019 the Trump administration told the UN it did not intend to become a party, which releases a signatory from its obligation not to undermine the treaty. There is no formal 'unsigning' procedure, but the signal was clear. China, for its part, joined the ATT in 2020."
             />
           </div>
 
@@ -590,28 +588,28 @@ export default function ComparisonPage() {
               country="China"
               verdict="partial"
               title="WTO — Subsidies & State Ownership"
-              body="China met its formal tariff schedule commitments closely, but failed to deliver on commitments to liberalise state-owned enterprises and report subsidies. After 15 years of non-reporting on industrial subsidies, the WTO Appellate Body found systemic Chinese violations."
+              body="China met its tariff commitments closely but fell short on subsidy transparency and on the market reforms many members expected. It did not notify any local-government subsidies until 2016, fifteen years after joining, and the US has brought several WTO cases against prohibited Chinese subsidies."
             />
             <ComplianceCase
               flag="🇨🇳"
               country="China"
               verdict="partial"
               title="UNCLOS — South China Sea"
-              body="Despite being a party, China rejected the 2016 Permanent Court of Arbitration ruling on South China Sea claims under UNCLOS. It has continued to construct artificial islands and enforce exclusion zones that the tribunal found unlawful."
+              body="China is a party to UNCLOS but rejected the 2016 award of the arbitral tribunal (administered by the Permanent Court of Arbitration) in the case brought by the Philippines. The tribunal found the nine-dash line had no legal basis for historic rights, and that China had violated the Philippines' sovereign rights and its environmental obligations. China has continued island-building and enforcement activity regardless."
             />
             <ComplianceCase
               flag="🇨🇳"
               country="China"
               verdict="partial"
               title="Montreal Protocol — CFC-11 Rebound"
-              body="China formally complied with phase-out schedules, but independent atmospheric monitoring in 2018 detected a sustained rise in CFC-11 concentrations traced to Chinese provinces. Investigation confirmed ongoing illegal production by manufacturers acting outside central government oversight."
+              body="China met its phase-out schedules on paper, but atmospheric monitoring reported in 2018–19 traced a sustained rise in CFC-11 emissions to eastern China. Chinese inspections then confirmed illegal production by manufacturers that provincial enforcement had missed. Emissions fell back after a crackdown."
             />
             <ComplianceCase
               flag="🇨🇳"
               country="China"
               verdict="partial"
               title="Sino-British Joint Declaration — Hong Kong"
-              body="China ratified this bilateral treaty committing to Hong Kong's 'high degree of autonomy' until 2047. The National Security Law (2020) and subsequent electoral reforms are broadly judged by international legal scholars as incompatible with those commitments."
+              body="China ratified this treaty, which commits it to a 'high degree of autonomy' for Hong Kong until 2047. The UK says the 2020 National Security Law and later electoral changes breach it, and many international lawyers agree. China calls the declaration a historical document."
             />
           </div>
         </div>

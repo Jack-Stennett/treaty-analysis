@@ -5,38 +5,38 @@ const SOURCES = [
   {
     name: 'UN Treaty Collection (MTDSG)',
     url: 'https://treaties.un.org/pages/ParticipationStatus.aspx',
-    note: 'Primary source for all multilateral treaty data — official participation status, reservation records, and entry-into-force dates for ~570 instruments deposited with the UN Secretary-General.',
-    note_zh: '所有多边条约数据的主要来源——联合国秘书长存档的约570项文书的官方参与状态、保留条款记录及生效日期。',
+    note: 'Main source for multilateral treaty data: official participation status, reservations and entry-into-force dates for the 560+ treaties deposited with the UN Secretary-General.',
+    note_zh: '多边条约数据的主要来源：交由联合国秘书长保存的560余项条约的官方参与状态、保留及生效日期。',
   },
   {
     name: 'US Trade Representative (USTR) Annual Reports',
-    url: 'https://ustr.gov/about/policy-offices/press-office/press-releases/2025/january/ustr-releases-annual-report-chinas-wto-compliance',
+    url: 'https://ustr.gov/sites/default/files/files/Countries%20and%20Regions/China%2C%20Mongolia%20%26%20Taiwan/2025%20USTR%20Report%20to%20Congress%20on%20China\'s%20WTO%20Compliance%20(Final%202025).pdf',
     note: 'Annual assessments of China\'s WTO compliance across tariff, subsidy, IP, and services commitments.',
     note_zh: '对中国在关税、补贴、知识产权及服务承诺方面履行世贸组织义务情况的年度评估。',
   },
   {
     name: 'Peterson Institute for International Economics (PIIE)',
-    url: 'https://www.piie.com/research/piie-charts/2022/chinas-purchases-us-goods-services-under-phase-one-deal',
-    note: 'Month-by-month tracking of China\'s Phase One purchase commitments against targets.',
+    url: 'https://www.piie.com/research/piie-charts/us-china-phase-one-tracker-chinas-purchases-us-goods',
+    note: 'Chad Bown\'s month-by-month tracker of China\'s Phase One purchases against its commitments.',
     note_zh: '逐月追踪中国第一阶段采购承诺相对于目标值的完成情况。',
   },
   {
     name: 'International Atomic Energy Agency (IAEA)',
     url: 'https://www.iaea.org/newscenter/news/strengthening-chinas-national-nuclear-legal-framework-and-future-cooperation-in-nuclear-law',
-    note: 'Safeguards documentation, inspection reports, and country profiles for nuclear treaty compliance.',
-    note_zh: '核查文件、检查报告及核条约履约情况的国家概况。',
+    note: 'IAEA reporting on its cooperation with China, including the 2024 consultation on China\'s draft Atomic Energy Law.',
+    note_zh: '国际原子能机构关于其与中国合作的报道，包括2024年就中国《原子能法》草案开展的磋商。',
   },
   {
     name: 'Organisation for the Prohibition of Chemical Weapons (OPCW)',
-    url: 'https://www.opcw.org/about-opcw/member-states/list-member-states',
-    note: 'Official CWC member state records, inspection data, and declaration status.',
-    note_zh: '《化学武器公约》成员国官方记录、核查数据及申报状态。',
+    url: 'https://www.opcw.org/about-us/member-states/china',
+    note: 'Official CWC membership records. The OPCW does not publish inspection counts by country.',
+    note_zh: '《化学武器公约》成员国官方记录。禁止化学武器组织不公布分国别的视察次数。',
   },
   {
     name: 'US Department of State — Compliance Reports',
-    url: 'https://www.state.gov/wp-content/uploads/2021/04/2021-Adherence-and-Compliance-Report.pdf',
-    note: 'Annual Bureau of Arms Control reports on adherence to and compliance with arms control, nonproliferation, and disarmament agreements.',
-    note_zh: '军备控制局关于军控、防扩散及裁军协议遵守情况的年度报告。',
+    url: 'https://www.state.gov/wp-content/uploads/2025/04/Condition-10-c-Report-Accessible-4.23.2025.pdf',
+    note: 'Annual reports on compliance with arms control, non-proliferation and disarmament agreements, including a separate report on the Chemical Weapons Convention (linked).',
+    note_zh: '关于军控、防扩散及裁军协议遵守情况的年度报告，包括关于《化学武器公约》的专项报告（链接）。',
   },
   {
     name: 'Human Rights Watch',
@@ -46,12 +46,12 @@ const SOURCES = [
   },
   {
     name: 'Xue Hanqin & Jin Qian — "International Treaties in the Chinese Domestic Legal System" (2009)',
-    url: 'https://danielturpqc.org/upload/2015findoc/XUE_et_JIN-_International_Treaties_in_China.pdf',
-    note: 'The authoritative academic account of how China incorporates treaty obligations into domestic law.',
-    note_zh: '关于中国将条约义务纳入国内法体系方式的权威学术论述。',
+    url: 'https://doi.org/10.1093/chinesejil/jmp007',
+    note: 'A detailed account of how China brings treaty obligations into domestic law, written by two foreign ministry legal officials (Xue later became a judge at the ICJ).',
+    note_zh: '详细阐述中国如何将条约义务纳入国内法，作者为两位外交部法律官员（薛捍勤后任国际法院法官）。',
   },
   {
-    name: 'European Institute for Asian Studies (EIAS)',
+    name: 'Tim Rühlig, European Institute for Asian Studies (2018)',
     url: 'https://www.eias.org/policy-briefs/how-china-approaches-international-law-implications-for-europe/',
     note: 'Analysis of China\'s functionalist (as opposed to normative) approach to international law.',
     note_zh: '分析中国对国际法的功能主义（而非规范主义）立场。',
@@ -144,37 +144,37 @@ export default function AboutPage() {
           {zh ? (
             <>
               <p>
-                <strong className="text-navy">覆盖范围不完整。</strong>本数据库现收录约120项文书，主要来源于联合国条约汇编（MTDSG），该数据库共收录约570项向联合国秘书长存档的多边条约。目前尚未完整覆盖所有条目，仍在持续完善中。
+                <strong className="text-navy">覆盖范围不完整。</strong>本数据库收录120项文书：106项多边条约（约93项交由联合国秘书长保存）和14项双边文书。联合国秘书长保存的多边条约共有560余项，本数据库只涵盖其中一部分。
               </p>
               <p>
-                <strong className="text-navy">双边条约为选择性收录。</strong>中国签订了约3,000项双边条约，本数据库仅收录了部分具有分析价值的美中双边条约。若需系统性的双边数据，建议参阅中国外交部或美国国务院的官方数据库。
+                <strong className="text-navy">双边文书为选择性收录。</strong>中国每年签订数以百计的双边条约和协定。本数据库只收录了少数对分析有意义的双边文书，主要是中美之间的，其中4项并非条约，已作标注。如需系统的双边数据，请参阅中国外交部条约数据库或美国国务院的相关数据库。
               </p>
               <p>
                 <strong className="text-navy">合规评估为作者综合判断。</strong>"行为状态"（合规/部分合规/不合规）及合规标注，系作者基于公开文献对中国条约履行情况的综合研判，并非官方或法律认定。合理的分析人士对部分评级可能存在不同意见。
               </p>
               <p>
-                <strong className="text-navy">数据存在截止时效。</strong>条约记录以2026年初为基准，不会自动更新。如需最新参与状态，请以联合国条约汇编官方数据为准。
+                <strong className="text-navy">数据存在截止时效。</strong>条约记录反映截至2026年10月的情况，不会自动更新。如需最新参与状态，请以联合国条约汇编为准。2026年10月，本数据库经过一次系统的事实核查，更正了大量日期、状态和引文错误。
               </p>
               <p>
-                <strong className="text-navy">不涵盖以下内容：</strong>存档于国际货币基金组织、世界银行等机构的技术性条约；不具法律约束力的谅解备忘录（包括大多数"一带一路"合作协议）；地区性协定（如《区域全面经济伙伴关系协定》RCEP）。
+                <strong className="text-navy">不涵盖以下内容：</strong>交由国际货币基金组织、世界银行等专门机构保存的条约；不具约束力的谅解备忘录（包括大多数"一带一路"合作文件）；大多数区域性协定（RCEP除外）。
               </p>
             </>
           ) : (
             <>
               <p>
-                <strong className="text-navy">Coverage is incomplete.</strong> The database currently holds ~120 instruments drawn primarily from the UN Treaty Collection (MTDSG), which covers ~570 multilateral treaties deposited with the Secretary-General. Not all entries have been populated yet and the dataset is being actively expanded.
+                <strong className="text-navy">Coverage is incomplete.</strong> The database holds 120 instruments: 106 multilateral treaties (about 93 of them deposited with the UN Secretary-General) and 14 bilateral instruments. The UN Secretary-General holds more than 560 multilateral treaties, so this is a selection.
               </p>
               <p>
-                <strong className="text-navy">Bilateral treaties are selective.</strong> China has signed approximately 3,000 bilateral treaties. This database includes only a subset of analytically significant US–China bilaterals. For comprehensive bilateral coverage, consult China's Ministry of Foreign Affairs or the US State Department treaty databases.
+                <strong className="text-navy">Bilateral instruments are selective.</strong> China concludes hundreds of bilateral treaties and agreements every year. This database includes only a handful that are useful for the analysis, mostly US–China, and four of those are not treaties (they are labelled). For systematic bilateral data, see China's Ministry of Foreign Affairs treaty database or the US State Department.
               </p>
               <p>
-                <strong className="text-navy">Compliance assessments are the author's synthesis.</strong> The "behaviour status" ratings (compliant / partial / non-compliant) and compliance flags are the author's judgement based on publicly available literature — not official or legal determinations. Reasonable analysts may disagree on individual ratings.
+                <strong className="text-navy">Compliance assessments are the author's judgement.</strong> The "behaviour status" ratings (compliant / partial / non-compliant) and compliance flags are based on publicly available sources. They are not official or legal determinations, and reasonable people may disagree with individual ratings.
               </p>
               <p>
-                <strong className="text-navy">Data has a cutoff date.</strong> Treaty records reflect the position as of early 2026 and are not automatically updated. For current participation status, the UN Treaty Collection is authoritative.
+                <strong className="text-navy">Data has a cutoff date.</strong> Treaty records reflect the position as of October 2026 and are not updated automatically. For current status, the UN Treaty Collection is authoritative. In October 2026 the whole database was fact-checked, and a large number of dates, statuses and citations were corrected.
               </p>
               <p>
-                <strong className="text-navy">Not covered:</strong> technical treaties deposited with the IMF, World Bank, and other specialised agencies; non-binding MoUs (including most Belt and Road cooperation agreements); regional agreements such as RCEP.
+                <strong className="text-navy">Not covered:</strong> treaties deposited with the IMF, World Bank and other specialised agencies; non-binding memoranda (including most Belt and Road cooperation documents); and most regional agreements (RCEP is an exception).
               </p>
             </>
           )}
