@@ -4,7 +4,7 @@
  * "gold standard" baseline for comparison.
  *
  * Notable: Norway was a lead champion of both the Ottawa Mine Ban Treaty and
- * the Convention on Cluster Munitions. It ratified UNCLOS early and strongly.
+ * the Convention on Cluster Munitions. It is a strong supporter of UNCLOS (ratified 1996).
  * As a NATO member it has not signed TPNW.
  *
  * Sources: UN Treaty Collection (treaties.un.org), Norwegian MFA, OHCHR
@@ -18,7 +18,7 @@ export const NORWAY_STATUS = {
   72:  { status: 'n/a', notes: 'Asian and Pacific Development Centre — regional body.' },
   73:  { status: 'n/a', notes: 'South Centre — developing-country organisation.' },
   75:  { status: 'n/a', notes: 'Asia-Pacific Paperless Trade Framework — regional.' },
-  93:  { status: 'n/a', notes: 'International Copper Study Group.' },
+  93:  { status: 'withdrew',   notes: 'Former member; withdrew in 2000.' },
   100: { status: 'n/a', notes: 'Asia-Pacific Telecommunity — regional body.' },
   101: { status: 'n/a', notes: 'Asia-Pacific Institute for Broadcasting Development — regional.' },
   109: { status: 'n/a', notes: 'US–China bilateral.' },
@@ -44,19 +44,19 @@ export const NORWAY_STATUS = {
   88:  { status: 'in-force',    notes: '' },
   89:  { status: 'in-force',    notes: '' },
   90:  { status: 'in-force',    notes: '' },
-  91:  { status: 'not-signed',  notes: 'Norway expressed concerns about civil liberties implications and did not sign at 2025 opening.' },
+  91:  { status: 'signed-only', notes: 'Signed September 2026, after not signing at the 2025 opening.' },
 
   // ── Arms control / CBRN ───────────────────────────────────────────────────
   3:   { status: 'in-force',    notes: 'Ratified 1963.' },
   4:   { status: 'in-force',    notes: 'Non-nuclear weapon state party; ratified 1969.' },
   5:   { status: 'in-force',    notes: 'Ratified 1973.' },
-  6:   { status: 'in-force',    notes: 'Ratified 1997.' },
-  7:   { status: 'in-force',    notes: 'Ratified 1999. (Note: CTBT has not yet entered into force globally, pending ratification by 8 Annex-2 states including the US and China.)' },
+  6:   { status: 'in-force',   notes: 'Ratified 1994.' },
+  7:   { status: 'in-force',   notes: 'Ratified 1999. (The CTBT has not entered into force; it still needs 9 Annex-2 states, including the US and China. Russia withdrew its ratification in 2023.)' },
   24:  { status: 'in-force',    notes: 'Ratified 2014.' },
   25:  { status: 'not-signed',  notes: 'NATO member; Norway has not signed TPNW, consistent with NATO alliance nuclear posture.' },
   26:  { status: 'in-force',    notes: 'Norway was the lead champion of the Oslo Process that produced the CCM. Ratified 2008.' },
   27:  { status: 'in-force',    notes: 'Norway co-hosted the Ottawa Process negotiations and was among the first to ratify (1998).' },
-  34:  { status: 'in-force',    notes: 'Ratified 1967.' },
+  34:  { status: 'in-force',   notes: 'Ratified 1969.' },
   35:  { status: 'not-signed',  notes: 'Norway has not signed the Moon Agreement.' },
   99:  { status: 'in-force',    notes: '' },
   102: { status: 'in-force',    notes: '' },
@@ -72,7 +72,7 @@ export const NORWAY_STATUS = {
   29:  { status: 'in-force',    notes: '' },
   30:  { status: 'in-force',    notes: '' },
   31:  { status: 'in-force',    notes: '' },
-  40:  { status: 'in-force',    notes: 'Ratified 2014.' },
+  40:  { status: 'in-force',   notes: 'Ratified 2013.' },
   104: { status: 'in-force',    notes: '' },
   105: { status: 'in-force',    notes: '' },
   106: { status: 'in-force',    notes: '' },
@@ -87,17 +87,17 @@ export const NORWAY_STATUS = {
   19:  { status: 'in-force',    notes: 'Ratified 1991.' },
   20:  { status: 'in-force',    notes: 'Ratified 2013.' },
   44:  { status: 'in-force',    notes: '' },
-  45:  { status: 'in-force',    notes: '' },
-  46:  { status: 'in-force',    notes: '' },
+  45:  { status: 'not-signed', notes: '' },
+  46:  { status: 'not-signed', notes: '' },
   47:  { status: 'in-force',    notes: '' },
   48:  { status: 'in-force',    notes: '' },
   49:  { status: 'in-force',    notes: 'Party to the 1951 Convention and 1967 Protocol.' },
   50:  { status: 'in-force',    notes: '' },
   51:  { status: 'in-force',    notes: '' },
   52:  { status: 'in-force',    notes: '' },
-  53:  { status: 'in-force',    notes: '' },
+  53:  { status: 'not-signed', notes: '' },
   54:  { status: 'in-force',    notes: '' },
-  55:  { status: 'in-force',    notes: '' },
+  55:  { status: 'not-signed', notes: '' },
   56:  { status: 'in-force',    notes: '' },
   57:  { status: 'in-force',    notes: '' },
   58:  { status: 'in-force',    notes: '' },
@@ -109,25 +109,25 @@ export const NORWAY_STATUS = {
   64:  { status: 'in-force',    notes: '' },
   65:  { status: 'in-force',    notes: '' },
   66:  { status: 'in-force',    notes: '' },
-  67:  { status: 'in-force',    notes: 'Norway is a founding member of the International Vaccine Institute.' },
+  67:  { status: 'not-signed', notes: '' },
   68:  { status: 'in-force',    notes: 'Ratified 2003.' },
   69:  { status: 'in-force',    notes: '' },
   82:  { status: 'in-force',    notes: '' },
 
   // ── Economic & trade ──────────────────────────────────────────────────────
-  21:  { status: 'in-force',    notes: 'Member via EEA/EFTA arrangements; formal WTO member.' },
+  21:  { status: 'in-force',   notes: 'Original WTO member since 1995, in its own right.' },
   32:  { status: 'in-force',    notes: '' },
   33:  { status: 'in-force',    notes: '' },
-  36:  { status: 'in-force',    notes: '' },
+  36:  { status: 'not-signed', notes: '' },
   70:  { status: 'in-force',    notes: '' },
   71:  { status: 'in-force',    notes: '' },
   74:  { status: 'not-signed',  notes: 'Norway has not signed the UN Electronic Communications Convention.' },
-  76:  { status: 'signed-only', notes: 'Signed 2023; ratification pending.' },
-  80:  { status: 'not-signed',  notes: 'Norway did not join the UN Liner Code.' },
+  76:  { status: 'not-signed', notes: '' },
+  80:  { status: 'in-force',   notes: 'Acceded 1985.' },
   81:  { status: 'in-force',    notes: '' },
   92:  { status: 'in-force',    notes: '' },
   96:  { status: 'in-force',    notes: '' },
-  97:  { status: 'in-force',    notes: 'Ratified 2021.' },
+  97:  { status: 'not-signed', notes: '' },
 
   // ── Technology & science ──────────────────────────────────────────────────
   22:  { status: 'in-force',    notes: 'Bound through WHO membership.' },
@@ -135,7 +135,7 @@ export const NORWAY_STATUS = {
   // ── Maritime & territory ──────────────────────────────────────────────────
   9:   { status: 'in-force',    notes: 'Ratified 1996. Norway strongly supports UNCLOS given its extensive maritime interests in the North Sea and Arctic.' },
   37:  { status: 'in-force',    notes: 'Consultative party; Norway has a significant Antarctic research presence.' },
-  77:  { status: 'in-force',    notes: '' },
+  77:  { status: 'not-signed', notes: '' },
   78:  { status: 'in-force',    notes: 'Norway is a TIR contracting party.' },
   79:  { status: 'in-force',    notes: '' },
   94:  { status: 'in-force',    notes: '' },
@@ -146,5 +146,5 @@ export const NORWAY_STATUS = {
   41:  { status: 'in-force',    notes: '' },
   42:  { status: 'in-force',    notes: '' },
   43:  { status: 'in-force',    notes: 'Norway ratified the Jurisdictional Immunities Convention.' },
-  98:  { status: 'in-force',    notes: 'Ratified 1971.' },
+  98:  { status: 'not-signed', notes: 'Not a party.' },
 };

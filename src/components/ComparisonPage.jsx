@@ -223,7 +223,14 @@ function DivergenceSection({ title, subtitle, treaties, highlight }) {
                   className="inline-block w-2 h-2 rounded-full mt-1.5 shrink-0"
                   style={{ backgroundColor: CATEGORY_COLORS[treaty.cat] ?? '#999' }}
                 />
-                <span className="text-sm font-serif text-navy font-medium leading-snug">{treaty.name}</span>
+                <span className="text-sm font-serif text-navy font-medium leading-snug">
+                  {treaty.name}
+                  {treaty.instrument_type && (
+                    <span className="ml-1.5 align-middle inline-block px-1.5 py-px rounded text-[10px] uppercase tracking-wide bg-gold/15 text-gold-dark font-sans">
+                      Not a treaty: {treaty.instrument_type}
+                    </span>
+                  )}
+                </span>
               </div>
               {us?.notes && (
                 <p className="text-xs text-navy/50 mt-1 ml-4 leading-relaxed">{us.notes}</p>

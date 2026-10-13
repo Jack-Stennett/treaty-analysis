@@ -106,6 +106,11 @@ export default function TreatyTable({ treaties }) {
                 >
                   <td className="px-3 py-2 font-medium text-navy max-w-xs">
                     <div className="truncate">{t.name}</div>
+                    {t.instrument_type && (
+                      <span className="inline-block mt-0.5 px-1.5 py-px rounded text-[10px] uppercase tracking-wide bg-gold/15 text-gold-dark">
+                        Not a treaty: {t.instrument_type}
+                      </span>
+                    )}
                   </td>
                   <td className="px-3 py-2">
                     <span className="inline-block px-2 py-0.5 rounded text-xs font-medium text-white"

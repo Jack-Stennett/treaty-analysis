@@ -42,7 +42,12 @@ export default function EraDetailPanel({ selection, treaties, onClose }) {
         {eraTreaties.map(t => (
           <div key={t.id} className="border border-cream-border rounded-lg p-3 bg-cream">
             <div className="flex items-start justify-between gap-2">
-              <div className="font-medium text-sm text-navy">{t.name}</div>
+              <div className="font-medium text-sm text-navy">
+                {t.name}
+                {t.instrument_type && (
+                  <span className="block text-[10px] uppercase tracking-wide text-gold-dark mt-0.5">Not a treaty: {t.instrument_type}</span>
+                )}
+              </div>
               <Badge text={t.status} colorMap={STATUS_COLORS} />
             </div>
             <div className="flex flex-wrap gap-1.5 mt-2">
