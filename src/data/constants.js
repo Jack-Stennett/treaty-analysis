@@ -111,7 +111,7 @@ export const NOTABLE_ABSENCES = [
     name: 'OECD Anti-Bribery Convention',
     full: 'Convention on Combating Bribery of Foreign Public Officials in International Business Transactions',
     signed: null,
-    notes: 'Not a party (non-OECD member). China has domestic anti-corruption law but no international reporting obligations under this framework.',
+    notes: 'Not a party. Non-OECD states can join (Argentina, Brazil and South Africa have), but China has not, so its enforcement against foreign bribery faces no peer review under this framework.',
     cat: 'Economic & trade',
     obligation_type: 'scalar',
     enforcement_channel: 'distributed',

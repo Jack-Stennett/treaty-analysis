@@ -10,54 +10,54 @@ function EnContent() {
         obligationType="mixed"
         enforcementChannel="centralised"
         verdict="partial"
-        notes="The WTO case is the most complex in China's treaty record. Binary, measurable obligations with centralised enforcement (tariff schedules, quantitative restrictions) were implemented reliably. Scalar, process-based obligations requiring ongoing domestic reform (transparency, subsidy reporting, IP enforcement, market access for state-adjacent sectors) were not. The compliance gap widened significantly under Xi Jinping as China moved back toward a more state-directed economic model."
+        notes="The WTO is the most complicated case in China's record. Binary, measurable obligations with a clear enforcement route (tariff schedules, quota removal) were carried out reliably. Scalar, process-based obligations that needed continuing domestic reform (subsidy transparency, IP enforcement, real market access) were not. The gap widened under Xi Jinping as China moved back toward a more state-led economy."
       />
 
       <Section title="The political economy of accession">
         <p>
-          China's WTO accession after 15 years of negotiation was, domestically, a political project as much as an economic one. Premier Zhu Rongji — widely regarded as the most reform-minded Chinese leader of his generation — used WTO accession as a lever to attack inefficient and often corrupt state-owned enterprises that had survived on protectionism. The international commitment gave domestic reformers a compelling external justification for changes that would otherwise have faced devastating political opposition: "our hands are tied."
+          China's accession in December 2001, after 15 years of negotiation, was as much a domestic political project as an economic one. Premier Zhu Rongji, a committed reformer, used it as a lever against inefficient and often corrupt state-owned enterprises that survived on protection. An international commitment gave reformers an outside reason for changes that would otherwise have met fierce resistance at home. In effect they could say: "Sorry, our hands are tied."
         </p>
         <p>
-          This "two-level game" dynamic — using international commitments to achieve domestic goals that would otherwise be politically blocked — is one of the most important mechanisms by which international treaties produce real domestic change, and the WTO accession is its clearest illustration in China's modern history.
+          This is one version of what Robert Putnam called a "two-level game": leaders using an international agreement to push through domestic changes they already wanted. China's WTO entry is the clearest modern example of it.
         </p>
       </Section>
 
       <Section title="The implementation process">
         <p>
-          What followed accession was one of the most significant legislative programmes in PRC history. China revised or repealed over 3,000 laws, regulations, and administrative orders. Uniquely among major treaties in China's record, the WTO agreements were <em>not</em> published in the NPC Standing Committee Gazette — meaning Chinese courts could not refer to them directly. Instead, the entire treaty had to be transformed into domestic Chinese law, provision by provision, across dozens of policy areas.
+          Accession set off one of the largest legislative clean-ups in PRC history. According to China's 2018 white paper, about 2,300 laws, regulations and departmental rules were revised or repealed at central level, and around 190,000 local measures. Chinese courts do not apply the WTO agreements directly. The Supreme People's Court's 2002 rules on international trade cases tell judges to apply Chinese law, but also to prefer whichever reading of it is consistent with China's WTO commitments. So the treaty works through domestic law, provision by provision.
         </p>
         <p>
-          This transformation process illustrates both the strengths and limits of China's treaty implementation model. Where obligations were binary and checkable — tariff rates against published schedules, removal of quantitative restrictions — compliance was prompt and verifiable. The USTR's first two-year WTO compliance review (2004) noted that tariff reductions were implemented on schedule, quantitative restrictions were removed, and most specific market access commitments were met. These are "legible" obligations in the framework of this database: you can check a tariff rate in seconds and know whether China is compliant.
+          Where obligations were binary and checkable, such as tariff rates against published schedules or the removal of quotas, compliance was prompt. A 2004 review prepared for the US-China Economic and Security Review Commission found that tariff cuts had been made on time and most specific market-access commitments met. It was much more critical of transparency, subsidies and IP enforcement. Tariffs are "legible" obligations in this database's sense: anyone can check a rate against the schedule in seconds.
         </p>
       </Section>
 
       <Section title="Where compliance broke down">
         <p>
-          Compliance fractured along the scalar/binary divide. Transparency obligations — requiring China to report domestic subsidies to the WTO's Committee on Subsidies and Countervailing Measures — were chronically unfulfilled. A recent USTR report notes that China took 15 years to report its first subsidy through a local government, and continues to systematically under-report. Intellectual property law was substantially revised on paper; enforcement in Chinese courts remained largely notional for years. In services sectors, formal market access was extended but then constrained by administrative and licensing barriers that were never specified in the commitments.
+          Compliance split along the binary/scalar line. China is required to notify its subsidies to the WTO; it did not notify a single sub-central (provincial or local) subsidy until 2016, fifteen years after joining, and USTR says it still under-reports. IP laws were rewritten quickly. Enforcement against counterfeiting and piracy stayed weak for years, although Chinese courts now hear a very large volume of IP cases and set up specialised IP courts from 2014. In services, market access was granted on paper and then limited by licensing and administrative barriers the commitments never spelled out.
         </p>
         <p>
-          Under Xi Jinping, the compliance picture worsened. China abandoned the market-oriented reform path that WTO architects had anticipated and has since blocked WTO reform proposals — most notably on dispute settlement and the treatment of state enterprises — that would constrain China's industrial policy model. The USTR has characterised China's approach as a "state-directed, non-market" model incompatible with WTO norms.
+          Under Xi Jinping the gap grew. The market-oriented reform path WTO members had hoped for stalled, and China has resisted new disciplines on state-owned enterprises and industrial subsidies. USTR describes its approach as "state-led, non-market" policies and practices. China has, however, backed restoring the WTO's Appellate Body, which the US has blocked since 2019. In September 2025 it also said it would not seek new "special and differential treatment" as a developing country in future WTO negotiations.
         </p>
         <Flag type="danger">
-          <strong>The scalar compliance gap:</strong> Subsidy reporting, IP enforcement, and market access reform are quintessentially scalar obligations: they require ongoing behavioural change by thousands of government bodies and private actors, with no clear pass/fail threshold. The WTO dispute settlement mechanism provides <em>centralised</em> enforcement in principle, but it operates ex post and requires a complaining party to bring a case — which is slow, expensive, and politically costly. This gap between formal obligation and actual behaviour is precisely what the <em>behaviour_status</em> field in this database is designed to capture.
+          <strong>The scalar compliance gap:</strong> Subsidy reporting, IP enforcement and market-access reform are classic scalar obligations. They need continuing behavioural change from thousands of government bodies and firms, with no clear pass/fail line. WTO dispute settlement is centralised in principle, but it works after the fact and only when another member brings a case, which is slow, expensive and politically costly. The <em>behaviour_status</em> field in this database is meant to capture exactly this gap between formal obligation and actual behaviour.
         </Flag>
       </Section>
 
       <Section title="The dispute settlement record">
         <p>
-          China has been the respondent in approximately 50 WTO dispute settlement cases — the most of any country alongside the US and EU. Its record is mixed. China has largely complied with panel and Appellate Body rulings in cases involving binary obligations (e.g., removing specific export restrictions, correcting specific tariff classifications). It has been slower to implement rulings that require ongoing structural change, and has appealed into the WTO's now-dysfunctional Appellate Body in several cases.
+          China has been the respondent in about 50 WTO disputes, the third-highest number after the US and the EU. It has generally complied with rulings that required a specific, binary fix, such as dropping particular export restrictions. It has been slower with rulings that required structural change. In a couple of cases it has appealed "into the void", to an Appellate Body that can no longer hear appeals.
         </p>
         <p>
-          China has also been an active complainant — bringing approximately 25 cases against other parties, mostly the US. This active use of the dispute settlement system, both as respondent and complainant, is itself analytically significant: it suggests China treats the WTO's legal mechanisms as instrumentally useful even while contesting some of their normative premises.
+          China has also brought about 25 cases of its own, mostly against the US. Its readiness to use the system on both sides suggests it treats WTO law as a useful tool, even while it contests some of the market-economy assumptions behind it.
         </p>
       </Section>
 
       <Section title="Relevance to AI governance">
         <p>
-          The WTO case is the closest precedent to what a comprehensive AI governance framework would need to do: transform broad, process-based international commitments into domestic regulatory change across a complex, economically significant sector. Its partial success is sobering. China implemented well where obligations were specific and the compliance gap was visible; it did not implement well where obligations required ongoing distributed reform or where political incentives pointed the other way.
+          The WTO is the closest precedent to what a broad AI governance framework would need to do: turn wide, process-based international commitments into domestic regulatory change across a large and economically important sector. The partial result is sobering. China delivered where obligations were specific and any shortfall was visible. It didn't where obligations needed continuing, distributed reform, or where political incentives pointed the other way.
         </p>
         <p>
-          The Zhu Rongji mechanism — using treaty commitments as domestic political cover — also has an AI analogue: Chinese AI governance actors who want to constrain some domestic actors (e.g., unsafe deployment practices) might welcome an international commitment that gives them external justification. But this depends on whether there are domestic reform constituencies who would benefit, which is not guaranteed in the AI context.
+          The Zhu Rongji mechanism, using a treaty as domestic political cover, could have an AI analogue. Chinese officials who want to rein in some domestic actors (unsafe deployment practices, for example) might welcome an international commitment that gives them an outside justification. That depends on there being a domestic constituency for reform, which can't be taken for granted in AI.
         </p>
       </Section>
     </>
@@ -71,54 +71,54 @@ function ZhContent() {
         obligationType="mixed"
         enforcementChannel="centralised"
         verdict="partial"
-        notes="WTO案例是中国条约记录中最为复杂的案例。二元式、可量化且具有集中执行机制的义务（关税表、数量限制）得到了可靠执行；而需要持续国内改革的渐进式、程序性义务（透明度、补贴申报、知识产权执法、邻国市场准入）则未能履行。随着习近平时代中国回归更具国家主导性的经济模式，履约差距显著扩大。"
+        notes="世贸组织是中国条约记录中最复杂的案例。二元式、可衡量且有明确执行途径的义务（关税减让表、取消配额）得到了可靠执行；需要持续国内改革的渐进式、程序性义务（补贴透明度、知识产权执法、实质性市场准入）则没有。随着中国在习近平时期转向更加国家主导的经济模式，这一差距进一步扩大。"
       />
 
       <Section title="入世的政治经济学">
         <p>
-          经过15年谈判，中国加入世贸组织在国内既是政治工程，也是经济项目。时任总理朱镕基——被广泛视为其那一代最具改革精神的中国领导人——将入世作为杠杆，打击靠保护主义存活的低效且腐败的国有企业。国际承诺为国内改革派提供了一个令人信服的外部理由，使原本将遭遇巨大政治阻力的改革得以推进："我们别无选择。"
+          经过15年谈判，中国于2001年12月加入世贸组织。这在国内既是经济工程，也是政治工程。坚定的改革者朱镕基总理借入世之力，向依靠保护主义存活、往往低效且腐败的国有企业开刀。一项国际承诺为改革派提供了外部理由，使原本会在国内遭遇强烈阻力的改革得以推进，等于是说："对不起，我们也是身不由己。"
         </p>
         <p>
-          这种"双层博弈"动态——利用国际承诺实现在国内层面原本会被政治封堵的目标——是国际条约推动真实国内变革最重要的机制之一，而入世是中国现代史上最清晰的体现。
+          这正是帕特南所说的"双层博弈"的一种形式：领导人借助国际协议推动自己本就想要的国内改革。中国入世是这一机制在当代最清晰的例子。
         </p>
       </Section>
 
       <Section title="实施过程">
         <p>
-          入世之后，中国启动了中华人民共和国历史上规模最大的立法工程之一，修订或废止了3,000余部法律、法规及行政规章。与中国重大条约记录中的独特之处在于，世贸组织协议<em>未</em>发表于全国人大常委会公报——这意味着中国法院无法直接援引。相应地，整个条约必须逐条款地转化为中国国内法，涵盖数十个政策领域。
+          入世引发了中华人民共和国历史上规模最大的法律清理之一。据中国2018年白皮书，中央层面清理了约2300件法律、行政法规和部门规章，地方层面清理了约19万件地方性政策法规。中国法院并不直接适用世贸组织协定。最高人民法院2002年关于审理国际贸易行政案件的规定要求法官适用中国法律，但当法律存在多种合理解释时，应选择与中国入世承诺相一致的解释。因此，条约是通过国内法逐条发挥作用的。
         </p>
         <p>
-          这一转化过程既体现了中国条约执行模式的优势，也揭示了其局限。在义务为二元式且可核查的领域——对照公布的时间表核查关税税率、取消数量限制——履约及时且可验证。美国贸易代表办公室2004年发布的首份入世合规两年期审查报告指出，关税削减按时落实、数量限制已被取消、大多数具体市场准入承诺得到履行。这些都是本数据库框架下的"可读"义务：只需几秒钟核查关税税率，即可判断中国是否合规。
+          凡是二元式、可核查的义务，如按已公布的减让表调整关税税率、取消配额，履约都很及时。2004年为美中经济与安全审查委员会撰写的一份评估发现，关税减让按时完成，大部分具体的市场准入承诺也已兑现，但对透明度、补贴和知识产权执法的评价要严厉得多。关税是本数据库意义上"可读"的义务：任何人都能在几秒钟内对照减让表核查税率。
         </p>
       </Section>
 
-      <Section title="履约的失效之处">
+      <Section title="履约在哪里出了问题">
         <p>
-          履约在渐进式/二元式分野处出现断裂。透明度义务——要求中国向世贸组织补贴与反补贴措施委员会申报国内补贴——长期未能履行。美国贸易代表办公室近期报告指出，中国花了15年才首次申报地方政府补贴，且持续存在系统性少报。知识产权法律在文本层面得到了实质性修订，但中国法院的执法多年来基本流于形式。在服务业领域，形式上的市场准入已经开放，随后却受到承诺文本从未载明的行政壁垒和许可证门槛的制约。
+          履约沿着二元式与渐进式的分界线出现了分化。中国有义务向世贸组织通报补贴，但直到2016年、即入世十五年后，才首次通报地方层面的补贴，美国贸易代表办公室称至今仍存在少报。知识产权法律很快完成修订，但打击假冒和盗版的执法多年来一直薄弱；不过如今中国法院审理的知识产权案件数量非常庞大，并自2014年起设立了专门的知识产权法院。在服务业，市场准入在纸面上开放，随后却受到承诺中从未写明的许可和行政壁垒的限制。
         </p>
         <p>
-          习近平时代，履约状况进一步恶化。中国放弃了世贸组织设计者所预期的市场化改革路径，并此后阻挠世贸组织改革提案——尤其是在争端解决和国有企业处理方式方面——这些提案将制约中国的产业政策模式。美国贸易代表办公室将中国的做法定性为与世贸组织规范不相容的"国家主导、非市场"模式。
+          习近平时期，这一差距进一步扩大。世贸成员所期待的市场化改革路径陷入停滞，中国抵制针对国有企业和产业补贴的新纪律。美国贸易代表办公室称其做法为"国家主导的非市场"政策和做法。不过，中国支持恢复世贸组织上诉机构，而美国自2019年起一直阻挠上诉机构成员的任命。2025年9月，中国还表示在今后的世贸谈判中不再寻求新的发展中国家"特殊与差别待遇"。
         </p>
         <Flag type="danger">
-          <strong>渐进式履约差距：</strong>补贴申报、知识产权执法和市场准入改革是典型的渐进式义务：它们要求数千个政府机构和私人行为体持续改变行为，却没有明确的合格/不合格门槛。世贸组织争端解决机制在原则上提供了集中式执行渠道，但其运作是事后性的，且需要由提出申诉的一方启动——这一过程缓慢、代价高昂且政治成本不菲。正式义务与实际行为之间的这种差距，正是本数据库<em>行为状态</em>字段所要记录的内容。
+          <strong>渐进式义务的履约差距：</strong>补贴通报、知识产权执法和市场准入改革都是典型的渐进式义务，需要成千上万个政府机构和企业持续改变行为，且没有明确的合格线。世贸组织争端解决机制在原则上是集中式的，但它只能事后发挥作用，且须由其他成员提起诉讼，过程缓慢、成本高昂、政治代价大。本数据库的 <em>behaviour_status</em> 字段正是为了捕捉正式义务与实际行为之间的这种差距。
         </Flag>
       </Section>
 
       <Section title="争端解决记录">
         <p>
-          中国在约50起世贸组织争端解决案件中担任被申诉方，与美国和欧盟并列最多。其记录参差不齐。在涉及二元式义务的案件中（如取消特定出口限制、纠正特定关税分类），中国大体遵守了专家组和上诉机构的裁决；而在需要持续性结构性变革的裁决方面，执行则相对迟缓，且在若干案件中向如今已陷入瘫痪的上诉机构提出了上诉。
+          中国在约50起世贸争端中作为被诉方，数量仅次于美国和欧盟，位列第三。对于只需作出具体、二元式纠正的裁决（例如取消特定出口限制），中国总体上予以执行；对需要结构性改变的裁决则执行较慢。在少数案件中，中国向已无法审理上诉的上诉机构提起了"空诉"。
         </p>
         <p>
-          中国也是积极的申诉方，对其他方（主要是美国）提起了约25起案件。作为被申诉方和申诉方同时积极使用争端解决体系，本身具有重要的分析意义：这表明中国即便对某些规范性前提持有异议，仍将世贸组织的法律机制视为具有工具价值。
+          中国自己也提起了约25起诉讼，主要针对美国。它同时以起诉方和被诉方身份使用这一体系，说明它把世贸法律当作有用的工具，尽管它对其背后的某些市场经济假设持有异议。
         </p>
       </Section>
 
       <Section title="对人工智能治理的启示">
         <p>
-          WTO案例是与综合性人工智能治理框架所需做的工作最为接近的先例：将宽泛的、程序性的国际承诺转化为涵盖复杂、具有重大经济意义领域的国内监管变革。其有限成功令人警醒：义务具体且违规差距显而易见的领域，中国执行良好；义务要求持续分散式改革或政治激励指向相反的领域，中国则未能落实。
+          世贸组织是最接近全面人工智能治理框架所需完成任务的先例：把宽泛的、程序性的国际承诺转化为一个庞大且经济上重要的行业中的国内监管变革。部分成功的结果发人深省。凡是义务具体、差距一目了然的地方，中国都做到了；凡是义务需要持续、分散的改革，或政治激励方向相反的地方，则没有做到。
         </p>
         <p>
-          "朱镕基机制"——将条约承诺作为国内政治掩护——在人工智能领域也有类似情形：希望约束某些国内行为体（如不安全部署实践）的中国人工智能治理参与者，可能会欢迎一项提供外部依据的国际承诺。但这取决于国内是否存在受益的改革派力量，而在人工智能背景下，这一点并无保障。
+          "朱镕基机制"，即以条约作为国内政治掩护，在人工智能领域可能也有对应。希望约束某些国内主体（例如不安全的部署做法）的中国官员，或许会欢迎一项为他们提供外部理由的国际承诺。但前提是国内存在支持改革的群体，而在人工智能领域这一点并不能想当然。
         </p>
       </Section>
     </>
@@ -137,14 +137,14 @@ export default function WTOStudy() {
     ? [
         { label: '入世时间', value: '2001年12月' },
         { label: '谈判历时', value: '15年' },
-        { label: '修订法规', value: '3,000余部' },
+        { label: '中央层面清理法规', value: '约2300件' },
         { label: '状态', value: '已生效', color: 'bg-sage/20 text-sage-dark' },
         { label: '行为', value: '部分合规', color: 'bg-gold/20 text-gold-dark' },
       ]
     : [
         { label: 'Accession', value: 'Dec 2001' },
         { label: 'Negotiation period', value: '15 years' },
-        { label: 'Laws revised', value: '3,000+' },
+        { label: 'Central laws & rules revised', value: '~2,300' },
         { label: 'Status', value: 'In force', color: 'bg-sage/20 text-sage-dark' },
         { label: 'Behaviour', value: 'Partial', color: 'bg-gold/20 text-gold-dark' },
       ];

@@ -103,7 +103,9 @@ export const TREATIES = [
     optional_protocols_accepted: false,
     complaints_mechanism_accepted: false,
     reporting_status: 'n/a',
-    compliance_flags: [],
+    compliance_flags: [
+      { source: 'U.S. State Dept', year: 1996, summary: 'In 1995, after joining the NPT, a Chinese state company sold ring magnets to Pakistan\'s unsafeguarded uranium enrichment plant, widely seen as inconsistent with NPT Art. III(2). The US held off sanctions after China pledged in May 1996 not to assist unsafeguarded facilities.' },
+    ],
     behaviour_status: 'partial',
     obligation_type: 'binary',
     enforcement_channel: 'centralised',
@@ -164,7 +166,7 @@ export const TREATIES = [
     compliance_flags: [
       { source: 'U.S. State Dept', year: 2025, summary: 'Annual compliance report says the US cannot certify that China has met its CWC obligations, citing research on pharmaceutical-based agents and toxins with potential dual-use applications and incomplete declarations of its historical programme. The OPCW has made no adverse finding.' },
     ],
-    behaviour_status: 'partial',
+    behaviour_status: 'compliant',
     obligation_type: 'binary',
     enforcement_channel: 'centralised',
     verification_mechanism: true,
